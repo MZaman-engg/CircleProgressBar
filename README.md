@@ -5,3 +5,11 @@ The CircleProgressView is a SwiftUI element for visualizing and controlling task
 
 https://github.com/MZaman-engg/CircleProgressBar/assets/144347342/06e7a94b-ed96-431f-b854-0b44199ef2b0
 
+**Usage:**
+``` swift
+
+@State private var progress: Float = 0.0
+
+CircleProgressView(progress: $progress)
+
+```
